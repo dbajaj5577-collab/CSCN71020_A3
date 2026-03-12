@@ -9,6 +9,7 @@ namespace UnitTestDriver
 	TEST_CLASS(UnitTestDriver)
 	{
 	public:
+		// Test cases of DRAW
 		TEST_METHOD(TestMethod1)
 		{
 			Assert::AreEqual(STR_DRAW, playGame(STR_ROCK, STR_ROCK));
@@ -38,6 +39,22 @@ namespace UnitTestDriver
 		{
 			Assert::AreEqual(STR_PLAYER1, playGame(STR_SISSOR, STR_PAPER));
 		}
-		
+		//test cases of player 2 win
+		TEST_METHOD(TestMethod8)
+		{
+			Assert::AreEqual(STR_PLAYER2, playGame(STR_SISSOR, STR_ROCK));
+		}
+		TEST_METHOD(TestMethod9)
+		{
+			Assert::AreEqual(STR_PLAYER2, playGame(STR_ROCK, STR_PAPER));
+		}
+		TEST_METHOD(TestMethod10)
+		{
+			Assert::AreEqual(STR_PLAYER2, playGame(STR_PAPER, STR_SISSOR));
+		}
+		TEST_METHOD(TestMethod11)
+		{
+			Assert::AreEqual(STR_INVALID, playGame("rock", STR_ROCK));
+		}
 	};
 }

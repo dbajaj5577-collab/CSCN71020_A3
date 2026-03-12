@@ -1,2 +1,3 @@
 ﻿  game.c
+C:\Users\bajaj\source\repos\CSCN71020_A3\Game\game.c(27,1): warning C4715: 'playGame': not all control paths return a value
   Game.vcxproj -> C:\Users\bajaj\source\repos\CSCN71020_A3\Game\x64\Debug\Game.lib
