@@ -1,4 +1,4 @@
 ﻿  UnitTestDriver.cpp
-C:\Users\bajaj\source\repos\CSCN71020_A3\UnitTestDriver\UnitTestDriver.cpp(39,1): error C1057: unexpected end of file in macro expansion
-  (compiling source file '/UnitTestDriver.cpp')
-  
+C:\Users\bajaj\source\repos\CSCN71020_A3\Game\Game\x64\Debug\game.obj : warning LNK4042: object specified more than once; extras ignored
+     Creating library C:\Users\bajaj\source\repos\CSCN71020_A3\Game\x64\Debug\UnitTestDriver.lib and object C:\Users\bajaj\source\repos\CSCN71020_A3\Game\x64\Debug\UnitTestDriver.exp
+  UnitTestDriver.vcxproj -> C:\Users\bajaj\source\repos\CSCN71020_A3\Game\x64\Debug\UnitTestDriver.dll
