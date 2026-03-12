@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EA3FA4C-1E32-CB33-218E-DFD34247B16B}|..\\UnitTestDriver\\UnitTestDriver.vcxproj|C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\UnitTestDriver\\UnitTestDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{429F653D-B938-45EA-93D7-C18548410791}|Game.vcxproj|C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\Game\\game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{429F653D-B938-45EA-93D7-C18548410791}|Game.vcxproj|solutionrelative:game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA3FA4C-1E32-CB33-218E-DFD34247B16B}|..\\UnitTestDriver\\UnitTestDriver.vcxproj|C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\UnitTestDriver\\UnitTestDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EA3FA4C-1E32-CB33-218E-DFD34247B16B}|..\\UnitTestDriver\\UnitTestDriver.vcxproj|C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\UnitTestDriver\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -20,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitTestDriver.cpp",
               "DocumentMoniker": "C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\UnitTestDriver\\UnitTestDriver.cpp",
               "RelativeDocumentMoniker": "..\\UnitTestDriver\\UnitTestDriver.cpp",
               "ToolTip": "C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\UnitTestDriver\\UnitTestDriver.cpp",
               "RelativeToolTip": "..\\UnitTestDriver\\UnitTestDriver.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-12T16:30:12.157Z",
               "EditorCaption": ""
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "game.c",
               "DocumentMoniker": "C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\Game\\game.c",
               "RelativeDocumentMoniker": "game.c",
               "ToolTip": "C:\\Users\\bajaj\\source\\repos\\CSCN71020_A3\\Game\\game.c",
               "RelativeToolTip": "game.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-12T16:30:06.789Z",
               "EditorCaption": ""
