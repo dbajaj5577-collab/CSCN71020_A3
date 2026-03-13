@@ -10,51 +10,50 @@ namespace UnitTestDriver
 	{
 	public:
 		// Test cases of DRAW
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestMethodforDRAW1)
 		{
 			Assert::AreEqual(STR_DRAW, playGame(STR_ROCK, STR_ROCK));
 		}
-		TEST_METHOD(TestMethod2)
+		TEST_METHOD(TestMethodforDRAW2)
 		{
 			Assert::AreEqual(STR_DRAW, playGame(STR_SISSOR, STR_SISSOR));
 		}
-		TEST_METHOD(TestMethod3)
+		TEST_METHOD(TestMethodforDRAW3)
 		{
 			Assert::AreEqual(STR_DRAW, playGame(STR_PAPER, STR_PAPER));
 		}
-		TEST_METHOD(TestMethod4)
+		TEST_METHOD(TestMethodforINVALID1)
 		{
 			Assert::AreEqual(STR_INVALID, playGame("DOG","COW"));
-		//test cases of player 1 win
 		}
-		TEST_METHOD(TestMethod5)
+		TEST_METHOD(TestMethodforINVALID2)
+		{
+			Assert::AreEqual(STR_INVALID, playGame("rock", STR_ROCK));
+		}
+		TEST_METHOD(TestMethodforPLAYER1TOWIN1)
 		{
 			Assert::AreEqual(STR_PLAYER1, playGame(STR_PAPER, STR_ROCK));
 		}
-		TEST_METHOD(TestMethod6)
+		TEST_METHOD(TestMethodforPLAYER1TOWIN2)
 		{
 			Assert::AreEqual(STR_PLAYER1, playGame(STR_ROCK, STR_SISSOR));
 		}
-		TEST_METHOD(TestMethod7)
+		TEST_METHOD(TestMethodforPLAYER1TOWIN3)
 		{
 			Assert::AreEqual(STR_PLAYER1, playGame(STR_SISSOR, STR_PAPER));
 		}
 		//test cases of player 2 win
-		TEST_METHOD(TestMethod8)
+		TEST_METHOD(TestMethodforPLAYER2TOWIN1)
 		{
 			Assert::AreEqual(STR_PLAYER2, playGame(STR_SISSOR, STR_ROCK));
 		}
-		TEST_METHOD(TestMethod9)
+		TEST_METHOD(TestMethodforPLAYER2TOWIN2)
 		{
 			Assert::AreEqual(STR_PLAYER2, playGame(STR_ROCK, STR_PAPER));
 		}
-		TEST_METHOD(TestMethod10)
+		TEST_METHOD(TestMethodforPLAYER2TOWIN3)
 		{
 			Assert::AreEqual(STR_PLAYER2, playGame(STR_PAPER, STR_SISSOR));
-		}
-		TEST_METHOD(TestMethod11)
-		{
-			Assert::AreEqual(STR_INVALID, playGame("rock", STR_ROCK));
 		}
 	};
 }
